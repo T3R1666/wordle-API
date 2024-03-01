@@ -1,0 +1,60 @@
+body {
+    font-family: "nyt-karnakcondensed";
+    background-color: #1f1f1f;
+  }
+     
+  h1 {
+    font-family: "nyt-karnakcondensed";
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    line-height: 38px;
+    margin-top: 50px;
+    color: white;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display:inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+
+  #grid{    
+    margin-top: 50px;
+    text-align: center;
+}
